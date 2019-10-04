@@ -27,7 +27,7 @@ end
 end
 
 def get_english_meaning(emoticon_list, えもじ)
-   新しいえもじ = load_library(emoticon_list)
+   新しいえもじ = load_library(emoticon_list) # millionth reminder: remember to actually use the methods you create- e.g load_file and not retyping it out again
   if 新しいえもじ["get_meaning"].include?(えもじ)
   新しいえもじ["get_meaning"][えもじ]
 else
